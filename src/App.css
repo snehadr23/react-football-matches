@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.year-pane {
+  float:left;
+  width: 30%;
+  border-right: 1px solid grey;
+  box-shadow: 1px;
+}
+
+.year-pane p {
+  border-bottom: 1px solid black;
+}
+.year-pane p:last-child {
+  margin-bottom: 0;
+}
+.matches-pane {
+  width: 70%;
+  padding-left: 1em;
+}
+.year-pane p {
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+}
+h1 {
+  border-bottom: 1px solid grey;
+  margin-bottom: 0;
 }
